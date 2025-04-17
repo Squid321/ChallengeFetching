@@ -13,7 +13,7 @@ public class MoveForwardX : MonoBehaviour
         if (transform.position.x < -25 ) {
             Destroy(gameObject);
         }
-        else if (transform.position.y < -50) {
+        if (transform.position.y < -50) {
             Destroy(gameObject);
         }
     }
